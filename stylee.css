@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+header{
+    height:60px;
+    width:100%;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    text-shadow:2px 2px 3px blue,3px 3px 4px red,4px 4px 5px green;
+}
+div{
+    height:100px;
+    border:2px solid black;
+        position: relative;
+    top:100px;
+    display:inline-block;
+    border-radius: 50%;
+    left:500px;
+}
+.rock{
+    background-image: url("rock.jpg");
+    background-size:cover;
+    background-position:center;
+    width:100px;
+}
+.paper{
+    background-image: url("paper.jpg");
+    background-size:cover;
+    background-position:center;
+    width:100px;
+}
+.scissors{
+    background-image: url("scissors.jpg");
+    background-size:cover;
+    background-position:center;
+    width:100px;
+}
+div:hover{
+    box-shadow: 3px 3px 3px 2px black;
+}
+p{
+    position: absolute;
+    font-size: 25px;
+}
+#me{
+    top:300px;
+    left:550px;
+    color:blue;
+}
+#comp{
+    top:300px;
+    left:700px;
+    color:blue;
+}
+#mep{
+    top:340px;
+    left:550px;
+}
+hr{
+    position: relative;
+    left:500px;
+    top:160px;
+    width:300px;
+    height:4px;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 1px black;
+}
+#compp{
+    top:340px;
+    left:725px;
+}
+.mess{
+    position:absolute;
+    border-radius:10px;
+    height:30px;
+    width:150px;
+    top:400px;
+    left:590px;
+    background-color: black;
+    color:green;
+    display:flex;
+}
+#mess{
+    font-size: 20px;
+    left:20px;
+}
